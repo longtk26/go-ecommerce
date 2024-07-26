@@ -1,14 +1,12 @@
 server:
   port: 8082
-databases:
-  - user: admin
-    password: 12345
-    host: localhost
-    dbName: shopDev
-  - user: user
-    password: 54321
-    host: localhost
-    dbName: shopUser
-security:
-  jwt:
-    key: abc123
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  username: root
+  password: root
+  dbname: shopdevgo
+  maxIdleConns: 10  # Max connects idle are allowed to be kept in the pool
+  maxOpenConns: 100 # Max connects are allowed to be opened
+  connMaxLifetime: 3600 # Max life time of a connection in seconds 
+  
