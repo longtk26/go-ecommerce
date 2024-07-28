@@ -22,9 +22,6 @@ func LoadConfig() {
     }
 
 	// Read server config
-	fmt.Println("Server port: ", viper.GetInt("server.port"))
-	fmt.Println("Security: ", viper.GetString("security.jwt.key"))
-
 	if err := viper.Unmarshal(&global.Config); err != nil {
 		fmt.Printf("Error unmarshalling config: %v", err)
 	}

@@ -3,3 +3,22 @@
 {"level":"ERROR","time":"2024-07-27T13:15:44.593+0700","caller":"initialize/mysql.go:16","msg":"Failed to init MYSQL","error":"Error 1049 (42000): Unknown database 'shopdevgo'","stacktrace":"github.com/longtk26/go-ecommerce/internal/initialize.checkErrorPanic\n\t/root/backend/go/projects/go-ecommerce/internal/initialize/mysql.go:16\ngithub.com/longtk26/go-ecommerce/internal/initialize.InitMysql\n\t/root/backend/go/projects/go-ecommerce/internal/initialize/mysql.go:31\ngithub.com/longtk26/go-ecommerce/internal/initialize.Run\n\t/root/backend/go/projects/go-ecommerce/internal/initialize/run.go:13\nmain.main\n\t/root/backend/go/projects/go-ecommerce/cmd/server/main.go:6\nruntime.main\n\t/snap/go/10660/src/runtime/proc.go:271"}
 {"level":"INFO","time":"2024-07-27T13:16:56.038+0700","caller":"initialize/run.go:12","msg":"Config loaded successfully","config ok":"ok"}
 {"level":"INFO","time":"2024-07-27T13:16:56.041+0700","caller":"initialize/mysql.go:32","msg":"MYSQL connected"}
+{"level":"INFO","time":"2024-07-27T14:29:51.918+0700","caller":"initialize/run.go:12","msg":"Config loaded successfully","config ok":"ok"}
+{"level":"INFO","time":"2024-07-27T14:29:51.929+0700","caller":"initialize/mysql.go:32","msg":"MYSQL connected"}
+{"level":"INFO","time":"2024-07-27T14:30:11.092+0700","caller":"initialize/run.go:12","msg":"Config loaded successfully","config ok":"ok"}
+{"level":"INFO","time":"2024-07-27T14:30:11.096+0700","caller":"initialize/mysql.go:32","msg":"MYSQL connected"}
+{"level":"INFO","time":"2024-07-28T14:34:25.610+0700","caller":"initialize/run.go:12","msg":"Config loaded successfully","config ok":"ok"}
+{"level":"INFO","time":"2024-07-28T14:34:25.620+0700","caller":"initialize/mysql.go:32","msg":"MYSQL connected"}
+{"level":"INFO","time":"2024-07-28T14:36:37.079+0700","caller":"initialize/run.go:12","msg":"Config loaded successfully","config ok":"ok"}
+{"level":"INFO","time":"2024-07-28T14:36:37.082+0700","caller":"initialize/mysql.go:32","msg":"MYSQL connected"}
+{"level":"INFO","time":"2024-07-28T14:37:03.016+0700","caller":"initialize/run.go:12","msg":"Config loaded successfully","config ok":"ok"}
+{"level":"INFO","time":"2024-07-28T14:37:03.019+0700","caller":"initialize/mysql.go:32","msg":"MYSQL connected"}
+{"level":"INFO","time":"2024-07-28T14:39:39.649+0700","caller":"initialize/run.go:12","msg":"Config loaded successfully","config ok":"ok"}
+{"level":"INFO","time":"2024-07-28T14:39:39.653+0700","caller":"initialize/mysql.go:32","msg":"MYSQL connected"}
+{"level":"INFO","time":"2024-07-28T14:40:37.249+0700","caller":"initialize/run.go:12","msg":"Config loaded successfully","config ok":"ok"}
+{"level":"INFO","time":"2024-07-28T14:40:37.252+0700","caller":"initialize/mysql.go:32","msg":"MYSQL connected"}
+{"level":"INFO","time":"2024-07-28T14:40:52.033+0700","caller":"initialize/run.go:12","msg":"Config loaded successfully","config ok":"ok"}
+{"level":"INFO","time":"2024-07-28T14:40:52.036+0700","caller":"initialize/mysql.go:32","msg":"MYSQL connected"}
+{"level":"INFO","time":"2024-07-28T14:45:43.563+0700","caller":"initialize/run.go:12","msg":"Config loaded successfully","config ok":"ok"}
+{"level":"INFO","time":"2024-07-28T14:45:43.567+0700","caller":"initialize/mysql.go:32","msg":"MYSQL connected"}
+{"level":"INFO","time":"2024-07-28T14:45:43.662+0700","caller":"initialize/redis.go:51","msg":"score","score":"100"}
